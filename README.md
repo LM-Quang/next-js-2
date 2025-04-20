@@ -60,3 +60,14 @@ next-js/
       |  └──page.tsx
       └──page.tsx
 ```
+
+### 5. `Route Groups`
+
+[Read more](https://nextjs.org/docs/app/building-your-application/routing/route-groups)
+
+```
+next-js/
+└──app/
+   ├──(content)/
+   └──(marketing)/
+```

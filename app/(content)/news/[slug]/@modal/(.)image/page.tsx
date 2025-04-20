@@ -2,11 +2,13 @@
 
 import { DUMMY_NEWS } from "@/data/dummyNews";
 import Image from "next/image";
-import { notFound, useParams } from "next/navigation";
+import { notFound, useParams, useRouter } from "next/navigation";
 import React from "react";
 
 const InterceptedImagePage = () => {
+   const router = useRouter();
    const params = useParams<{ slug: string }>();
+
    const newsItemSlug = params.slug;
    const newsItem = DUMMY_NEWS.find((newsItem) => newsItem.slug === newsItemSlug);
 
@@ -16,7 +18,7 @@ const InterceptedImagePage = () => {
 
    return (
       <>
-         <div className="modal-backdrop" />
+         <div className="modal-backdrop" onClick={router.back} />
          <dialog className="modal" open>
             <div className="fullscreen-image">
                <Image
