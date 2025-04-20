@@ -17,7 +17,12 @@ const NewsDetailPage = () => {
    return (
       <article className="news-article">
          <header>
-            <Image src={`/images/news/${newsItem?.image}`} alt={newsItem.title} fill />
+            <Image
+               src={`/images/news/${newsItem?.image}`}
+               alt={newsItem.title}
+               width={115}
+               height={115}
+            />
             <h1>{newsItem.title}</h1>
             <time dateTime={newsItem.date}>{newsItem.date}</time>
          </header>
