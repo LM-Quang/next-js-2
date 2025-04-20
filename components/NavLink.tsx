@@ -8,7 +8,7 @@ const NavLink = ({ href, children }: { href: string; children: string }) => {
    const path = usePathname();
 
    return (
-      <Link href="/news" className={path.startsWith(href) ? "active" : undefined}>
+      <Link href={href} className={path.startsWith(href) ? "active" : undefined}>
          {children}
       </Link>
    );

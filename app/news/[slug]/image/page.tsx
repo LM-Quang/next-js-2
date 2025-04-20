@@ -16,7 +16,7 @@ const ImagePage = () => {
 
    return (
       <div className="fullscreen-image">
-         <Image src={`/images/news.${newsItem.image}`} alt={newsItem.title} fill />
+         <Image src={`/images/news/${newsItem.image}`} alt={newsItem.title} fill />
       </div>
    );
 };

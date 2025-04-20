@@ -39,3 +39,24 @@ next-js/
       |     └──default.tsx
       └──layout.tsx
 ```
+
+### 4. Using `Interception Routes` with `Parallel Routes`
+
+[Read more](https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes)
+
+```
+next-js/
+└──app/
+   └──news/
+      ├──[slug]/
+      |  ├──@modal/
+      |  |  ├──(.)image/
+      |  |  |  └──page.tsx
+      |  |  └──page.tsx
+      |  ├──image/
+      |  |  └──page.tsx
+      |  ├──layout.tsx
+      |  ├──not-found.tsx
+      |  └──page.tsx
+      └──page.tsx
+```
