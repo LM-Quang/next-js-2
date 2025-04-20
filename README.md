@@ -71,3 +71,11 @@ next-js/
    ├──(content)/
    └──(marketing)/
 ```
+
+### 6. `Route Handlers`
+
+[Read more](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+
+### 7. `Middleware`
+
+[Read more](https://nextjs.org/docs/app/building-your-application/routing/middleware)
