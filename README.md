@@ -79,3 +79,7 @@ next-js/
 ### 7. `Middleware`
 
 [Read more](https://nextjs.org/docs/app/building-your-application/routing/middleware)
+
+### 7. `Fetching Data`
+
+[Read more](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
